@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="first.css">
+</head>
+
+<!-- internal css  -->
+<style>
+  /* flexbox => flex-direction: row; */
+  .parent {
+    background-image: url(./images/438-4381481_ipad-plain-black-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .parent-class {
+    display: flex;
+    gap: 20px;
+  }
+
+  .parent-class img{
+    height: 300px;
+    width: 400px;
+  }
+  
+</style>
+
+<body>
+  <div class="parent">
+ <!-- inline css  -->
+    <div class="parent-class" id="parent-id">
+      <p style="font-size: 40px; color: red;">first</p>
+      <p style="font-size: 40px; color: green;">second</p>
+      <p style="font-size: 40px; color: rgb(115, 128, 0);">third</p>
+      <p style="font-size: 40px; color: rgb(128, 0, 34);">fourth</p>
+      <img src="https://tse3.mm.bing.net/th/id/OIP.4a314hDQYP8UkVdW6aYNCgHaDm?w=294&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+    </div>
+  </div>
+</body>
+
+</html>

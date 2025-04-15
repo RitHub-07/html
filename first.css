@@ -1,0 +1,16 @@
+/* we can access id through # , class trough . */
+.parent-class {
+  /* border: 2px solid black; */
+}
+
+.parent-class p{
+  border: 2px solid gray;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  background-color: gray;
+  font-size: 20px;
+}
+
+
+/* external css  */
