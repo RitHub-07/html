@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pseudo-Classes Demo</title>
+  <style>
+    /* Style for the button */
+    button {
+      padding: 10px 20px;
+      background-color: #3498db;
+      border: none;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    /* Hover effect */
+    button:hover {
+      background-color: #2980b9;
+    }
+
+    /* Focus effect */
+    button:focus {
+      outline: 2px solid #f1c40f;
+    }
+
+    /* Active (clicked) effect */
+    button:active {
+      background-color: #1c5980;
+    }
+
+    /* Input field default */
+    input {
+      padding: 8px;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      margin-top: 10px;
+    }
+
+    /* Focus on input */
+    input:focus {
+      border-color: #3498db;
+      outline: none;
+      background-color: #ecf0f1;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Pseudo-Classes Demo</h2>
+  
+  <button>Click Me</button><br><br>
+  <button>Click Me</button><br><br>
+  <button>Click Me</button><br><br>
+
+  
+  <input type="text" placeholder="Type something..." />
+
+</body>
+</html>

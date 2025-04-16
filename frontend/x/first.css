@@ -1,6 +1,6 @@
 /* we can access id through # , class trough . */
 .parent-class {
-  /* border: 2px solid black; */
+  border: 2px solid black;
 }
 
 .parent-class p{
