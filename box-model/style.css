@@ -1,0 +1,55 @@
+.parent{
+  background-color: gray;
+  display: flex;
+  gap: 20px;
+  position: relative;
+  height: 1400px;
+}
+
+.parent p:nth-child(even){
+  background-color: yellow;
+}
+
+.parent p:nth-child(odd){
+  background-color: greenyellow;
+}
+
+.parent p:nth-child(1){
+  background-color: green;
+}
+
+.parent p:last-child{
+  background-color: whitesmoke;
+}
+
+
+
+
+.parent p{
+  height: 200px;
+  width: 200px;
+  border: 2px solid red;
+}
+
+#one{
+  margin-left: 40px;
+  padding-top: 20px;
+}
+
+#third{
+    margin-left: 100px;
+    padding-left: 40px;
+}
+
+#two{
+    margin-top: 200px;
+    margin-left: 200px;
+    /* margin-right: 100px; */
+    margin-bottom: 100px;
+    padding-right: 30px;
+}
+
+
+#four{
+    margin: 100px 200px 100px 100px;
+}

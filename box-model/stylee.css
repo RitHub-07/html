@@ -1,0 +1,68 @@
+.parent{
+  background-color: gray;
+  /* display: flex; */
+  gap: 20px;
+  /* position: relative; */
+  height: 1400px;
+}
+
+
+/* position : static, relative, absolute, sticky, fixed */
+
+
+.parent p{
+  height: 200px;
+  width: 200px;
+  border: 2px solid red;
+}
+
+.parent p:nth-child(even){
+  background-color: yellow;
+}
+
+.parent p:nth-child(odd){
+  background-color: greenyellow;
+}
+
+.parent p:nth-child(1){
+  background-color: green;
+  position: relative;
+  margin-left: 50px;
+}
+
+.parent p:nth-child(1){
+  background-color: green;
+  position: static;
+  /* margin-left: 50px; */
+  top: 50px;
+}
+
+.parent p:nth-child(2){
+  background-color:palegreen;
+  /* position: relative; */
+  position: absolute;
+  margin-left: 200px;
+  top: 100px;
+}
+
+
+.parent p:nth-child(3){
+  background-color:palegreen;
+  /* position: relative; */
+  position: sticky;
+  margin-top: 50px;
+  border: 5px solid black;
+}
+
+
+.parent p:nth-child(4){
+  background-color:palegreen;
+  /* position: relative; */
+  position: fixed;
+  margin-left: 500px;
+  border: 5px solid maroon;
+}
+
+.parent p:last-child{
+  background-color: whitesmoke;
+}
