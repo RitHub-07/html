@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .box1 {
+  width: 200px;
+  height: 200px;
+  background-color: tomato;
+  color: white;
+  text-align: center;
+  /* line-height: 200px; */
+  margin: 50px auto;
+}
+
+.box1:hover{
+    transform: scale(1.2) rotate(15deg);
+}
+
+
+.box2 {
+  width: 200px;
+  height: 200px;
+  background-color: royalblue;
+  color: white;
+  text-align: center;
+  /* line-height: 200px; */
+  margin: 50px auto;
+  transition: all 0.1s ease-in-out; /*Animate all changes over 0.5s */
+}
+
+.box2:hover {
+  background-color: seagreen;
+   transform: scale(1.1) rotate(5deg); /*Slight zoom and rotate on hover */
+}
+
+</style>
+<body>
+    <div class="box1">Transform Me</div>
+    <div class="box2">Hover Me</div>
+
+</body>
+</html>

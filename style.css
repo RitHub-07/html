@@ -1,0 +1,60 @@
+.parent{
+  background-color: gray;
+  border: 3px solid black;
+  /* display: grid; */
+
+}
+
+
+.gridd{
+border: 1px solid yellow;   
+padding: 20px;
+margin: 20px;
+}
+
+p{
+  font-size: 40px;
+}
+
+.parent img{
+  width: 1000px;
+  height: 800px;
+}
+
+
+/* Default styles are for large screens (like desktops) */
+
+/* ✅ Media query for tablets */
+@media screen and (max-width: 768px) {
+  .parent img {
+      width: 100%;
+      height: auto;
+  }
+
+  p {
+      font-size: 24px;
+  }
+
+  .gridd {
+      padding: 15px;
+      margin: 10px;
+  }
+}
+
+/* ✅ Media query for mobile phones */
+@media screen and (max-width: 480px) {
+  .parent img {
+      width: 100%;
+      height: auto;
+  }
+
+  p {
+      font-size: 18px;
+  }
+
+  .gridd {
+      padding: 10px;
+      margin: 5px;
+      font-size: 14px;
+  }
+}

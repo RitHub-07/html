@@ -1,0 +1,31 @@
+.child-class {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 200px;
+  height: 100px;
+  background-color: lightblue; /* Suitable background color */
+  z-index: 2; /* Puts it above the overlay-box */
+  opacity: 0.8; /* Added opacity */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.overlay-box {
+  position: absolute;
+  top: 60px;
+  left: 60px;
+  width: 200px;
+  height: 100px;
+  background-color: red; /* Semi-transparent red */
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: white;
+  opacity: 0.78;
+}
