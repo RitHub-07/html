@@ -1,0 +1,94 @@
+/* General Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Navigation Bar Styling */
+nav {
+  background-color: #dce4ec;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+nav .main {
+  display: flex;
+  align-items: center;
+}
+
+nav img {
+  height: 50px;
+  margin-right: 20px;
+}
+
+nav .list-class {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+nav .list-class li {
+  margin-right: 15px;
+}
+
+nav .list-class a {
+  text-decoration: none;
+  color: white;
+}
+
+nav button {
+  background-color: #6532dd;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background-color: #4b2851;
+}
+
+/* Main Content Styling */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+}
+
+main .left {
+  text-align: left;
+  margin-right: 20px;
+}
+
+main .left p {
+  font-size: 36px;
+  color: green;
+  margin-bottom: 15px;
+}
+
+main .left button {
+  background-color: #6532dd;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+main .left button:hover {
+  background-color: #4b2851;
+}
+
+main .right img {
+  max-width: 100%;
+  height: auto;
+}

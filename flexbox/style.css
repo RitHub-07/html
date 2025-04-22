@@ -1,14 +1,11 @@
 #upper {
   background-color: aliceblue;
 }
-
 .main-nav {
   height: 150px;
   border: 2px solid black;
-  /* by default flex-direction: row ; */
   display: flex; 
   flex-direction: row;
-  /* flex-direction: column; */
   justify-content:center;
   align-items: center;
   justify-content: space-around;
@@ -48,8 +45,8 @@
 .main-nav button{
   height: 40px;
   width: 100px;
-  background-color: orangered;
-  color: whitesmoke;
+  background-color: purple;
+  color: rgb(44, 39, 176);
   border: none;
   font-size: 14px;
   font-weight: bold;
