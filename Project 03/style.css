@@ -1,0 +1,58 @@
+nav{ 
+  margin-top: 50px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  padding: 0px;
+  gap: 60px;
+}
+nav ul li a{
+  
+  color: black;
+  text-decoration:none;
+  font-size: 23px;
+}
+nav.main ul li a.highlighted {
+  color: black;
+  text-decoration: underline;
+  font-size: 25px;
+  font-weight: bold;
+}
+nav button{
+  margin-right:250px;
+}
+nav img{
+  max-height: 50px;
+  margin-left: 65px;
+}
+/* Search box styling */
+.search-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 24px;
+  padding: 5px 12px;
+  background-color: white;
+}
+
+/* Magnifying glass icon */
+.search-box i {
+  color: #888;
+  font-size: 16px;
+  margin-right: 8px;
+}
+
+/* Input box inside search */
+.search-box input {
+  border: none;
+  outline: none;
+  padding: 8px 10px;
+  font-size: 14px;
+  border-radius: 24px;
+  flex: 1;
+}
