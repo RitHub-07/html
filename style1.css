@@ -1,0 +1,22 @@
+.parent img{
+  width: 60px;
+  height: 65px;
+  border: solid;
+}
+/* .right p{
+  border:solid 2px;
+  font-size: 55px;
+} */
+.sidebar {
+  height: 400px; /* Full screen height */
+  margin-left: 5px;
+  padding-top: 20px;
+  border:solid 2px;
+}
+.img-fluid{
+  position:static;
+  height:20px;
+  border:solid 2px;
+  margin-left: 100px;
+  margin-bottom: 500px;
+}
