@@ -30,9 +30,13 @@ nav .list-class {
 
 nav .list-class a {
   text-decoration: none;
-  color:black;
-  font-size: 32px;
-  font-weight: 500;
+  color:grey;
+  font-size: 24px;
+  /* font-weight: 500; */
+}
+nav .list-class .highlight{
+  color: black;
+  text-decoration: solid;
 }
 
 nav button {
@@ -40,7 +44,7 @@ nav button {
   color: white;
   border: none;
   padding: 15px 30px;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
 }
 
@@ -94,7 +98,7 @@ main .left button {
   color: white;
   border: none;
   padding: 12px 30px;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
   font-size: 16px;
   font-weight: bold;

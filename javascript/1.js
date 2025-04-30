@@ -42,12 +42,4 @@ const sayHi = function() {
 // console.log(sayHi());
 sayHi()
 
-
-
-
-
-
-
-
-
 // console.log(x)
